@@ -1,0 +1,20 @@
+public class FizzBuzz {
+	
+	public static void main (String [] argument) { 
+		
+		for (int i = 1; i <= 100; i++) {
+			
+			int par3 = i%3;
+			int par5 = i%5;
+			
+			//System.out.println(par3);
+			if (par3 == 0 && par5 == 0) System.out.println("FizzBuzz ("+i+")"); 
+			else if(par3 == 0) System.out.println("Fizz ("+i+")"); 
+			else if(par5 == 0) System.out.println("Buzz("+i+")");
+			
+			else
+			System.out.println(i);
+		}
+
+	}
+}
